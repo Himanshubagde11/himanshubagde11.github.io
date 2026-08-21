@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Himanshu Bagde Data Analyst</title>
+<title>Himanshu Bagde | Data Analyst</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -215,6 +215,10 @@
  
   /* EXPERIENCE */
   #experience{border-top:1px solid var(--line);}
+  .exp-company{margin-bottom:28px;}
+  .exp-company h3{font-size:20px;}
+  .exp-company .exp-company-meta{font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--orange); margin-top:6px;}
+  .exp-card + .exp-card{margin-top:20px;}
   .exp-card{
     background:var(--black-2); border:1px solid var(--line); border-radius:var(--radius); padding:34px;
     position:relative; overflow:hidden;
@@ -362,13 +366,13 @@
     <div class="wrap hero-inner" id="heroInner">
       <p class="eyebrow" id="heroEyebrow">Data Analyst</p>
       <h1 id="heroTitle">Himanshu <span>Bagde</span></h1>
-      <p class="lead" id="heroLead">I turn raw data into ETL pipelines, dashboards and decisions working across SQL, Azure Data Factory, Python and Power BI to keep business metrics honest and fast to read.</p>
+      <p class="lead" id="heroLead">I turn raw data into ETL pipelines, dashboards and decisions, working across SQL, Azure Data Factory, Python and Power BI to keep business metrics honest and fast to read.</p>
       <div class="hero-ctas" id="heroCtas">
         <a href="#projects" class="btn btn-solid">View projects</a>
         <a href="#contact" class="btn btn-outline">Get in touch</a>
       </div>
       <div class="stat-row" id="heroStats">
-        <div class="stat"><div class="num"><span>1+</span></div><div class="label">Year of experience</div></div>
+        <div class="stat"><div class="num"><span>1.5+</span></div><div class="label">Years of experience</div></div>
         <div class="stat"><div class="num"><span>5+</span></div><div class="label">ETL pipelines built</div></div>
         <div class="stat"><div class="num"><span>7M+</span></div><div class="label">Records analyzed</div></div>
       </div>
@@ -384,17 +388,17 @@
       <div class="about-copy reveal">
         <p class="eyebrow">About</p>
         <h2 style="margin:16px 0 22px; font-size:clamp(26px,3vw,34px);">From mechanical engineering to making messy data make sense.</h2>
-        <p>I'm a data analyst with <strong>over a year of hands-on experience</strong> designing ETL pipelines, writing optimized SQL, and building Power BI dashboards that people actually use to make decisions.</p>
-        <p>Currently an <strong>Associate System Analyst at Edverciity by LiveTechSkills</strong>, I work across Azure Data Factory, Azure SQL Database and Python to move data from raw ingestion to clean, trustworthy reporting — with a strong focus on data validation, KPI design and stakeholder communication.</p>
-        <p>My background in mechanical engineering taught me to trust the numbers over the story — it's a habit that's carried straight into how I approach analytics.</p>
+        <p>I'm a data analyst with hands-on experience building <strong>ETL pipelines, optimized SQL and interactive dashboards</strong> that drive real business decisions, not just report on them.</p>
+        <p>At <strong>Edverciity by LiveTechSkills</strong>, I design Azure Data Factory pipelines that ingest and transform data from CSV, Excel, APIs and SQL sources into Azure SQL Database. That work has cut data processing time by <strong>40%</strong>. I write T-SQL with joins, CTEs, window functions and stored procedures, build Power BI and Tableau dashboards with DAX measures and drill-through filters, and run EDA in Python (Pandas, NumPy, Seaborn) on datasets north of 500K rows. Automating the monthly reporting workflow cut manual effort by <strong>60%</strong>.</p>
+        <p>Earlier in my career I worked on CRM data customization and automation, a foundation in data modeling and business process design that still shapes how I approach every dashboard today. My background in mechanical engineering taught me to trust the numbers over the story, and that habit carried straight into analytics.</p>
         <div class="about-meta">
           <div><b>Role</b>Associate System Analyst</div>
-          <div><b>Focus</b>SQL · ETL · Power BI · Python</div>
+          <div><b>Focus</b>SQL · ETL · Power BI · Tableau · Python</div>
         </div>
         <div class="tool-marquee">
           <div class="tool-track">
-            <span>SQL / T-SQL</span><span>Python</span><span>Azure Data Factory</span><span>Power BI</span><span>DAX</span><span>Pandas</span><span>Azure SQL</span><span>Excel</span>
-            <span>SQL / T-SQL</span><span>Python</span><span>Azure Data Factory</span><span>Power BI</span><span>DAX</span><span>Pandas</span><span>Azure SQL</span><span>Excel</span>
+            <span>SQL / T-SQL</span><span>Python</span><span>Azure Data Factory</span><span>Power BI</span><span>Tableau</span><span>DAX</span><span>Pandas</span><span>Azure SQL</span><span>MySQL</span><span>Excel</span>
+            <span>SQL / T-SQL</span><span>Python</span><span>Azure Data Factory</span><span>Power BI</span><span>Tableau</span><span>DAX</span><span>Pandas</span><span>Azure SQL</span><span>MySQL</span><span>Excel</span>
           </div>
         </div>
       </div>
@@ -428,7 +432,7 @@
         </div>
         <div class="skill-card tilt reveal">
           <h3>BI &amp; Reporting</h3>
-          <div class="chips"><span>Power BI</span><span>Drill-through</span><span>Slicers</span><span>KPI Dashboards</span><span>Excel / Pivot Tables</span></div>
+          <div class="chips"><span>Power BI</span><span>Tableau</span><span>Drill-through</span><span>Slicers</span><span>KPI Dashboards</span><span>Excel / Pivot Tables</span></div>
         </div>
         <div class="skill-card tilt reveal">
           <h3>Tools</h3>
@@ -445,20 +449,58 @@
         <p class="eyebrow">Experience</p>
         <h2>Where I've put this to work.</h2>
       </div>
+      <div class="exp-company reveal">
+        <h3>Edverciity by LiveTechSkills</h3>
+        <div class="exp-company-meta">Nagpur · 1 yr 9 mos total</div>
+      </div>
+ 
       <div class="exp-card tilt reveal">
         <div class="exp-head">
           <div>
             <h3>Associate System Analyst</h3>
-            <div class="org">Edverciity by LiveTechSkills · Nagpur, MH</div>
+            <div class="org">Full-time</div>
           </div>
-          <div class="period">June 2025 — Present</div>
+          <div class="period">Aug 2025-Present</div>
         </div>
         <ul>
-          <li>Designed and implemented 5+ ETL pipelines using Azure Data Factory (ADF) to ingest and transform data from CSV, Excel, and API sources into Azure SQL Database.</li>
-          <li>Developed optimized T-SQL queries, stored procedures, CTEs, and window functions to support analytics and reporting requirements.</li>
-          <li>Built interactive Power BI dashboards using DAX, slicers, and drill-through features to track KPIs and business performance metrics.</li>
-          <li>Performed data cleaning, validation, and exploratory data analysis (EDA) using Python (Pandas, NumPy) to ensure data quality and generate actionable insights.</li>
-          <li>Automated reporting workflows and monitored ETL pipelines, improving operational efficiency and maintaining reliable data delivery.</li>
+          <li>Designed and implemented ETL pipelines using Azure Data Factory (ADF) to ingest and transform data from CSV, Excel, APIs, and SQL sources into Azure SQL Database.</li>
+          <li>Developed optimized T-SQL queries using joins, CTEs, window functions, stored procedures, and views to support reporting and analytics.</li>
+          <li>Built interactive Power BI and Tableau dashboards with DAX measures, drill-through reports, slicers, and KPI scorecards for business stakeholders.</li>
+          <li>Performed data cleaning, transformation, and exploratory data analysis (EDA) using Python (Pandas, NumPy) on large datasets.</li>
+          <li>Automated recurring reporting workflows using ADF triggers and SQL stored procedures, significantly reducing manual effort.</li>
+          <li>Collaborated with business teams to translate requirements into dashboards, reports and analytical solutions, and maintained ETL documentation and data dictionaries.</li>
+        </ul>
+      </div>
+ 
+      <div class="exp-card tilt reveal">
+        <div class="exp-head">
+          <div>
+            <h3>Trainee</h3>
+            <div class="org">Full-time</div>
+          </div>
+          <div class="period">Jun 2025-Aug 2025</div>
+        </div>
+        <ul>
+          <li>Assisted in SQL data extraction, cleansing, and transformation tasks.</li>
+          <li>Supported ETL development and data validation activities.</li>
+          <li>Created basic Power BI dashboards and reports for internal projects.</li>
+          <li>Learned Azure Data Factory, Azure SQL Database, and data warehousing concepts under senior analysts.</li>
+        </ul>
+      </div>
+ 
+      <div class="exp-card tilt reveal">
+        <div class="exp-head">
+          <div>
+            <h3>Data Analyst Intern</h3>
+            <div class="org">Internship</div>
+          </div>
+          <div class="period">Dec 2024-Jun 2025</div>
+        </div>
+        <ul>
+          <li>Collected, cleaned, and analyzed structured datasets using SQL and Python.</li>
+          <li>Developed Excel reports and Power BI visualizations to monitor business metrics.</li>
+          <li>Performed exploratory data analysis to identify trends, missing values, and anomalies.</li>
+          <li>Assisted in dashboard development, report automation, and documented findings for mentors.</li>
         </ul>
       </div>
     </div>
@@ -475,13 +517,13 @@
         <div class="project-card tilt reveal">
           <div class="project-num">01 / 2025</div>
           <h3>E-Commerce Sales Analytics &amp; Customer Segmentation</h3>
-          <p>Analyzed 2M+ transaction records to identify sales trends and top-performing categories. Applied RFM analysis and K-Means clustering to segment customers into 5 groups, backed by a SQL Server star schema warehouse and a Power BI dashboard tracking AOV, CLV, and churn rate.</p>
+          <p>Analyzed 2M+ transaction records to identify sales trends and top-performing categories. Applied RFM analysis and K-Means clustering to segment customers into 5 groups, backed by a SQL Server star-schema warehouse and a Power BI dashboard tracking AOV, CLV, and churn rate.</p>
           <div class="project-tags"><span>Python</span><span>SQL Server</span><span>Power BI</span><span>Excel</span></div>
         </div>
         <div class="project-card tilt reveal">
           <div class="project-num">02 / 2025</div>
-          <h3>Azure End-to-End Data Pipeline — Retail Inventory</h3>
-          <p>Built an automated Azure pipeline ingesting inventory data from flat files and REST APIs into Azure SQL Database, with parameterized ADF pipelines, error handling, and Python-based validation for schema, null, and duplicate checks surfaced via near real-time Power BI dashboards.</p>
+          <h3>Azure End-to-End Data Pipeline for Retail Inventory</h3>
+          <p>Built an automated Azure pipeline ingesting inventory data from flat files and REST APIs into Azure SQL Database, with parameterized ADF pipelines, error handling, and Python-based validation for schema, null, and duplicate checks, surfaced via near real-time Power BI dashboards.</p>
           <div class="project-tags"><span>Azure Data Factory</span><span>Azure SQL</span><span>Python</span><span>Power BI</span></div>
         </div>
         <div class="project-card tilt reveal">
@@ -502,10 +544,12 @@
         <h2>Keeping the fundamentals sharp.</h2>
       </div>
       <div class="cert-row reveal">
-        <div class="cert-chip"><span class="dot"></span>Data Analyst Internship Certificate — Edverciity by LiveTechSkills (2024–2025)</div>
-        <div class="cert-chip"><span class="dot"></span>Microsoft Azure Fundamentals (AZ-900) — In Progress</div>
-        <div class="cert-chip"><span class="dot"></span>SQL for Data Analysis — Coursera / Udemy (2024)</div>
-        <div class="cert-chip"><span class="dot"></span>Python for Data Science and Machine Learning — Udemy (2024)</div>
+        <div class="cert-chip"><span class="dot"></span>Data Analyst Internship Certificate · Edverciity by LiveTechSkills (2024-2025)</div>
+        <div class="cert-chip"><span class="dot"></span>Deloitte Australia Data Analytics Job Simulation</div>
+        <div class="cert-chip"><span class="dot"></span>Microsoft Azure Fundamentals (AZ-900) · In Progress</div>
+        <div class="cert-chip"><span class="dot"></span>SQL for Data Analysis · Coursera / Udemy (2024)</div>
+        <div class="cert-chip"><span class="dot"></span>Python for Data Science and Machine Learning · Udemy (2024)</div>
+        <div class="cert-chip"><span class="dot"></span>EF SET English Certificate · 77/100, C2 Proficient</div>
       </div>
       <div class="edu-block reveal">
         <div>
@@ -523,7 +567,7 @@
       <div class="contact-info reveal">
         <p class="eyebrow">Contact</p>
         <h2 style="margin:16px 0 0; font-size:clamp(26px,3vw,34px);">Have a dataset that needs a clearer story?</h2>
-        <p>I'm open to data analyst roles and freelance work involving SQL, ETL, or Power BI. Reach out — I usually reply within a day.</p>
+        <p>I'm open to data analyst roles and freelance work involving SQL, ETL, or Power BI. Reach out, I usually reply within a day.</p>
         <div class="contact-row">
           <div class="icon">@</div>
           <div><span class="lbl">Email</span><a href="mailto:bagde.h11@gmail.com">bagde.h11@gmail.com</a></div>
@@ -703,7 +747,7 @@
     const email = document.getElementById('email').value.trim();
     const message = document.getElementById('message').value.trim();
     const subject = encodeURIComponent(`Opportunity / project inquiry from ${name}`);
-    const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+    const body = encodeURIComponent(`${message}\n\nFrom ${name} (${email})`);
     window.location.href = `mailto:bagde.h11@gmail.com?subject=${subject}&body=${body}`;
     formNote.textContent = "Opening your email client...";
   });
